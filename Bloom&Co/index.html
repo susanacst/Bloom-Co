@@ -1,36 +1,99 @@
 <!DOCTYPE html>
-<html lang="es"> 
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Flower shop shell">
-    <title>Flores para todos 🩷</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Flores para Todos 🩷</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/script.js"></script>
     <script src="https://kit.fontawesome.com/a3a735b303.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="tapebar">
-        <ul class="tapebar-icons">
+    <!-- top bar -->
+    <nav class="top-bar">
+        <ul class="top-bar-icons">
             <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
         </ul>
-        <p class="tapebar-message">
+        <p class="top-bar-message">
             Ahorra 20% usando el código: "FLORESPARATODOS"
         </p>
-        <ul class="tapebar-icons">
+        <ul class="top-bar-icons">
             <li><a href="#"><i class="fa-solid fa-phone"></i> +52 55 1234 5678</a></li>
-
         </ul>
     </nav>
-    <nav class="menu">
-        <ul>
-            <li>
-                <a href="/">hola</a>
-            </li>
+    <!-- menu -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Logotipo -->
+            <a href="/" class="navbar-logo">
+                <img src="/src/img/logo.png" alt="Logo de Flores para Todos">
+            </a>
 
-        </ul>
+            <!-- Barra de búsqueda -->
+            <form class="navbar-search">
+                <input type="text" placeholder="Buscar" aria-label="Buscar productos">
+                <button class="navbar-button-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
 
+            <!-- Botones cuenta y carrito -->
+            <div class="navbar-search-buttons">
+                <a href="/" class="button-user">
+                    <i class="fa-solid fa-user"></i> Login
+                </a>
+                <a href="/" class="button-car">
+                    <i class="fa-solid fa-cart-shopping"></i> $0.00 (0)
+                </a>
+            </div>
+        </div>
+        <hr>
+         <!-- menu navegacion redireccionamiento-->
+        <div class="navbar-links">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/">Catálogo</a></li>
+            <li><a href="/">Contacto</a></li>
+            <li><a href="/">Nosotros</a></li>
+
+        </div>
     </nav>
+    <!-- banner de index -->
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="slide active"><img src="/src/img/port1.png" alt="Imagen 1"></div>
+            <div class="slide"><img src="/src/img/port2.png" alt="Imagen 2"></div>
+            <div class="slide"><img src="/src/img/port3.png" alt="Imagen 3"></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <section id="banner-card">
+        <picture class="img-container">
+            <img src="/src/img/port1.png" alt="fondode flores para sección de cards">
+        </picture>
+        <div class="product-container">
+            <div class="card-product">
+                <div class="card-product-tag">NEW</div>
+                <picture>
+                    <img src="/src/img/flor-1.jpeg" alt="imagen de producto en venta">
+                </picture>
+                <h3>Ramo de 100 rosas rojas</h3>
+                <p class="card-product-price"> $3,000.00
+                    <small>
+                        MXN
+                    </small>
+                </p>
+                <button class="card-product-button">
+                    Hacer el pedido
+
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
 </body>
 </html>
