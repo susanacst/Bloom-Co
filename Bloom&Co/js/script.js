@@ -55,3 +55,4 @@ function moveSlide(direction) {
         });
     }, 2000);  // Cambia de carta cada 2 segundos.
 };
+

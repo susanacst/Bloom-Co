@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Flower shop shell">
-    <title>Flores para Todos 🩷</title>
+    <title>Flores para todos 🩷</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="/js/script.js"></script>
     <script src="https://kit.fontawesome.com/a3a735b303.js" crossorigin="anonymous"></script>
@@ -29,16 +29,16 @@
         <div class="navbar-container">
             <!-- Logotipo -->
             <a href="/" class="navbar-logo">
-                <img src="/src/img/logo.png" alt="Logo de Flores para Todos">
+                <img src="/src/img/logo.png" alt="Logo de Flores para todos">
             </a>
 
-            <!-- Barra de búsqueda -->
+            <!-- barra busqueda -->
             <form class="navbar-search">
                 <input type="text" placeholder="Buscar" aria-label="Buscar productos">
                 <button class="navbar-button-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
 
-            <!-- Botones cuenta y carrito -->
+            <!-- botones cuenta y carrito -->
             <div class="navbar-search-buttons">
                 <a href="/" class="button-user">
                     <i class="fa-solid fa-user"></i> Login
@@ -58,7 +58,7 @@
 
         </div>
     </nav>
-    <!-- banner de index -->
+    <!-- banner index -->
     <div class="carousel">
         <div class="carousel-container">
             <div class="slide active"><img src="/src/img/port1.png" alt="Imagen 1"></div>
@@ -68,14 +68,63 @@
         <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
         <button class="next" onclick="moveSlide(1)">&#10095;</button>
     </div>
-    <section id="banner-card">
-        <picture class="img-container">
-            <img src="/src/img/port1.png" alt="fondode flores para sección de cards">
-        </picture>
-        <div class="product-container">
-            <div class="card-product">
-                <div class="card-product-tag">NEW</div>
+    <!-- categories section -->
+    <section id="categories-section">
+        <h2>Categorías</h2>
+          <div class="category-container">
+            <!-- inicio categorie card -->
+            <a href="/" class="card-category">
                 <picture>
+                    <img src="/src/img/logo.png" alt="categoría 1">
+                </picture>
+                <!-- <h3>categoría 1</h3> -->
+            </a>
+            <!-- end categorie card -->
+             <!-- inicio categorie card -->
+            <a href="/" class="card-category">
+                <picture>
+                    <img src="/src/img/logo.png" alt="categoría 1">
+                </picture>
+                <!-- <h3>categoría 1</h3> -->
+            </a>
+            <!-- end categorie card -->
+             <!-- inicio categorie card -->
+            <a href="/" class="card-category">
+                <picture>
+                    <img src="/src/img/logo.png" alt="categoría 1">
+                </picture>
+                <!-- <h3>categoría 1</h3> -->
+            </a>
+            <!-- end categorie card -->
+             <!-- inicio categorie card -->
+            <a href="/" class="card-category">
+                <picture>
+                    <img src="/src/img/logo.png" alt="categoría 1">
+                </picture>
+                <!-- <h3>categoría 1</h3> -->
+            </a>
+            <!-- end categorie card -->
+             <!-- inicio categorie card -->
+            <a href="/" class="card-category">
+                <picture>
+                    <img src="/src/img/logo.png" alt="categoría 1">
+                </picture>
+                <!-- <h3>categoría 1</h3> -->
+            </a>
+            <!-- end categorie card -->
+             
+            
+          </div>
+        </div>
+    </section>
+    <!-- best seller section -->
+    <section id="best-seller-section">
+        <h2>Mejor Vendidos</h2>
+        <div class="product-container">
+              <!-- card -->
+            <div class="card-product">
+                <div class="card-product-tag">Nuevo</div>
+                <picture class="card-product-content-img">
                     <img src="/src/img/flor-1.jpeg" alt="imagen de producto en venta">
                 </picture>
                 <h3>Ramo de 100 rosas rojas</h3>
@@ -85,14 +134,124 @@
                     </small>
                 </p>
                 <button class="card-product-button">
-                    Hacer el pedido
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Agregar al carrito
 
                 </button>
             </div>
+              <!-- end card -->
+                <!-- card -->
+            <div class="card-product">
+                <div class="card-product-tag">Nuevo</div>
+                <picture class="card-product-content-img">
+                    <img src="/src/img/flor-1.jpeg" alt="imagen de producto en venta">
+                </picture>
+                <h3>Ramo de 100 rosas rojas</h3>
+                <p class="card-product-price"> $3,000.00
+                    <small>
+                        MXN
+                    </small>
+                </p>
+                <button class="card-product-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Agregar al carrito
 
+                </button>
+            </div>
+              <!-- end card -->
+                <!-- card -->
+            <div class="card-product">
+                <div class="card-product-tag">Nuevo</div>
+                <picture class="card-product-content-img">
+                    <img src="/src/img/flor-1.jpeg" alt="imagen de producto en venta">
+                </picture>
+                <h3>Ramo de 100 rosas rojas</h3>
+                <p class="card-product-price"> $3,000.00
+                    <small>
+                        MXN
+                    </small>
+                </p>
+                <button class="card-product-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Agregar al carrito
+
+                </button>
+            </div>
+              <!-- end card -->
+                <!-- card -->
+            <div class="card-product">
+                <div class="card-product-tag">Nuevo</div>
+                <picture class="card-product-content-img">
+                    <img src="/src/img/flor-1.jpeg" alt="imagen de producto en venta">
+                </picture>
+                <h3>Ramo de 100 rosas rojas</h3>
+                <p class="card-product-price"> $3,000.00
+                    <small>
+                        MXN
+                    </small>
+                </p>
+                <button class="card-product-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Agregar al carrito
+
+                </button>
+            </div>
+              <!-- end card -->
+                <!-- card -->
+            <div class="card-product">
+                <div class="card-product-tag">Nuevo</div>
+                <picture class="card-product-content-img">
+                    <img src="/src/img/flor-1.jpeg" alt="imagen de producto en venta">
+                </picture>
+                <h3>Ramo de 100 rosas rojas</h3>
+                <p class="card-product-price"> $3,000.00
+                    <small>
+                        MXN
+                    </small>
+                </p>
+                <button class="card-product-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Agregar al carrito
+
+                </button>
+            </div>
+              <!-- end card -->
+                <!-- card -->
+            <div class="card-product">
+                <div class="card-product-tag">Nuevo</div>
+                <picture class="card-product-content-img">
+                    <img src="/src/img/flor-1.jpeg" alt="imagen de producto en venta">
+                </picture>
+                <h3>Ramo de 100 rosas rojas</h3>
+                <p class="card-product-price"> $3,000.00
+                    <small>
+                        MXN
+                    </small>
+                </p>
+                <button class="card-product-button">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Agregar al carrito
+
+                </button>
+            </div>
+              <!-- end card -->
         </div>
-
+      
     </section>
+    <!-- about section -->
+    <section id="about-section">
+        <div class="container-about-section">
+            <picture class="about-image">
+                <img src="/src/img/flor-4.jpeg" alt="flor 4">
+            </picture>
+            <div class="text-about">
+                <h4>bienvenidos a blom&co</h4>
+                <p>creamos arreglos que llegan al corazón 🩷</p>
+                <a href="#" class="about-button">descubre más</a>
+            </div>
+        </div>
+    </section>
+
 
 
 </body>
