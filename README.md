@@ -1,42 +1,42 @@
 # 🌷 Bloom-Co — Frontend Practice for a Flower Shop
 
-**Bloom-Co** is a fictional brand I created to practice web interface design and frontend development for online stores.  
-This project serves as a minimal **empty shell** — it includes a basic structure and initial functions, and it's meant to evolve as I improve my frontend skills. 💻🌸
+**Bloom-Co** is a fictional flower shop brand I created to practice web interface design and frontend development for online stores.  
+This project is a minimal **empty shell** — it features a basic layout and initial structure, and it's meant to evolve as I improve my frontend skills. 💻🌸
 
 ---
 
 ## 🧠 Project Purpose
 
-✨ Build hands-on experience creating web interfaces  
-🌼 Simulate a modern and visually appealing flower shop UI  
-📦 Create a scalable foundation for future features like shopping cart, login, and product catalog  
-🎨 Experiment with styles, components, and responsive structure
+✨ Gain hands-on experience in building web interfaces  
+🌼 Simulate a modern, visually appealing flower shop UI  
+📦 Lay the foundation for future features like a shopping cart, login system, and product catalog  
+🎨 Experiment with styles, components, and responsive layouts
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **HTML5**  
-- **CSS3 / Flexbox / Grid**  
+- **CSS3** (Flexbox & Grid)  
 - **JavaScript (basic)**  
-- Future integration planned with **Vue** or **React**
+- Planned integration with **Vue** or **React**
 
 ---
 
 ## 🎯 Current Features
 
-✅ Basic store layout (home) 
-✅ Initial styles 
-✅ Initial structure
-❌ Simple interaction with buttons or forms  
+✅ Basic homepage layout  
+✅ Initial styling  
+✅ Core structure  
+❌ Simple interactivity (buttons/forms) not implemented yet  
 ❌ No real functionality yet  
 ❌ No backend or database integration
 
 ---
 
-## 🚧 In Progress
+## 🚧 Work in Progress
 
-- [ ] Full homepage design 🌺  
+- [ ] Complete homepage design 🌺  
 - [ ] Navigation system  
 - [ ] Product gallery  
 - [ ] Basic shopping cart  
@@ -46,16 +46,14 @@ This project serves as a minimal **empty shell** — it includes a basic structu
 
 ## 💡 Key Learnings
 
-This project helps me explore and practice:
+Through this project, I'm exploring and practicing:
 
-- Building a visual identity through UI  
-- Semantic and structured HTML  
-- Basic interactivity with JavaScript  
-- Laying the groundwork for modern frontend frameworks
+- Creating a consistent and attractive visual identity  
+- Writing clean, semantic HTML  
+- Implementing basic JavaScript interactions  
+- Preparing for future development using modern frontend frameworks
 
 ---
 
-
-Thanks for stopping by ✨  
-Feel free to leave a ⭐ or feedback — every bit of support helps me grow! 🌷
-
+Thanks for stopping by! ✨  
+Feel free to leave a ⭐ or share feedback — every bit of support helps me grow! 🌷
